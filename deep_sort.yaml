@@ -1,5 +1,5 @@
 DEEPSORT:
-  REID_CKPT: "/content/gdrive/My Drive/AdvancedComputerVision/Tracking_model/model640.pt"
+  REID_CKPT: "./deep_sort/deep/checkpoint/ckpt.t7"
   MAX_DIST: 0.2
   MIN_CONFIDENCE: 0.8
   NMS_MAX_OVERLAP: 0.5
