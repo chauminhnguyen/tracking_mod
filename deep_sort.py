@@ -12,7 +12,7 @@ __all__ = ['DeepSort']
 
 
 class DeepSort(object):
-    def __init__(self, model_path, max_dist=0.2, min_confidence=0.5, nms_max_overlap=1.0, max_iou_distance=0.7, max_age=20, n_init=1, nn_budget=None, use_cuda=True):
+    def __init__(self, model_path, max_dist=0.2, min_confidence=0.8, nms_max_overlap=1.0, max_iou_distance=0.7, max_age=20, n_init=1, nn_budget=None, use_cuda=True):
         self.min_confidence = min_confidence
         self.nms_max_overlap = nms_max_overlap
 
